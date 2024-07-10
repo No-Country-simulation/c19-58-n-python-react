@@ -1,0 +1,20 @@
+.hero--info {
+    width: 100%;
+}
+
+h2 {
+    max-width: 800px;
+}
+
+p {
+    max-width: 400px;
+}
+
+.banner--img {
+    width: 500px;
+
+}
+
+.button--hero {
+    width: 100%;
+}
