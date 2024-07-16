@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+
+    .wrapper{
+        @apply w-[90%] mx-auto overflow-hidden max-w-screen-xl;
+    }
+
+ }   

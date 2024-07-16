@@ -7,3 +7,44 @@ header {
 img {
     width: 270px;
 }
+
+.hideMenuNav {
+  display: none;
+}
+
+.showMenuNav {
+  display: block;
+}
+
+.menuSlide {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  background-color: white;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.menuSlideOpen {
+  transform: translateX(0);
+}
+
+.menuBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
+}
+
+.menuBackgroundVisible {
+  opacity: 1;
+  pointer-events: auto;
+}
