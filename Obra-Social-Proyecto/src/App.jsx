@@ -1,7 +1,11 @@
 
 import './App.css'
+import { About } from './Components/About/About'
+import { Contact } from './Components/Contact/Contact'
+import { Footer } from './Components/Footer/Footer'
 import { Header } from './Components/Header/Header'
-import { Hero } from './Hero/Hero'
+import { Hero } from './Components/Hero/Hero'
+
 
 function App() {
 
@@ -10,6 +14,9 @@ function App() {
     <>
       <Header/>
       <Hero/>
+      <About/>
+      <Contact/>
+      <Footer/>
     </>
   )
 }
