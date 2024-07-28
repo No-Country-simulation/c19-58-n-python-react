@@ -1,7 +1,7 @@
+import "./Footer.css"
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
 import { RiInstagramLine } from "react-icons/ri";
-
 
 export const Footer = () => {
   return (
@@ -20,7 +20,7 @@ export const Footer = () => {
                 <p className="text-red-600 text-xl">Instagram</p>
             </div>
         </section>
-        <section className="logo--copyright p-10 flex justify-center gap-72 items-end">
+        <section className="logo--copyright p-10 flex justify-center lg:gap-72 lg:items-end">
             <img src="/logo.png" alt="" />
             <p className="text-red-700 w-60">
                 Copyright © 2024 mental health |

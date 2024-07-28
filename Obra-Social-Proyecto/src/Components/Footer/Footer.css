@@ -1,0 +1,16 @@
+@media(max-width: 992px) {
+    .logo--copyright {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .social--media {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+    }
+}

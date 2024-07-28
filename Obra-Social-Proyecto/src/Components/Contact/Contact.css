@@ -3,3 +3,40 @@ hr {
     rotate: 90deg;
     width: 120px;
 }
+
+@media (max-width: 992px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+
+
+        & input {
+            width: 300px;
+        }
+    }
+
+    .form--text {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact--section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+        text-align: center;
+
+    }
+
+    hr {
+        display: none;
+    }
+}
+

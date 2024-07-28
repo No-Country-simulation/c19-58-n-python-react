@@ -12,7 +12,7 @@ p {
 }
 
 .banner--img {
-    width: 1600px;
+    width: 400px;
 
 }
 
@@ -21,7 +21,49 @@ p {
 }
 
 @media (max-width: 1024px) {
-    .banner--img{
-        display: none;
+
+    .Hero--container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Hero--info {
+        width: 100%;
+
+        h2 {
+            font-size: 32px;
+            width: 300px;
+        }
+    
+
+        p {
+            width: 300px;
+        }
+    }
+
+
+
+
+    .banner--img {
+        width: 200px;
+    }
+
+    .Button--Hero--Container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & .Hero-button {
+        width: 300px;
+    }
+}
+
+@media(max-width: 478px) {
+    .hero--img {
+        width: 200px;
     }
 }

@@ -5,7 +5,7 @@ export const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <header className="bg-white pt-2 flex justify-between items-center">
+    <header  className="bg-white pt-2 flex justify-between items-center">
       <img src="/logo.png" alt="Logo" />
       <nav>
         <section className="flex lg:hidden">
@@ -51,10 +51,10 @@ export const Header = () => {
                 <a className="text-red-600  hover:bg-red-100 p-5 hover:p-5 hover:px-14 hover:rounded hover:font-bold" href="#testimonios">Testimonios</a>
               </li>
               <li>
-                <a className="text-red-600  hover:bg-red-100 p-5 hover:p-5 hover:px-14 hover:rounded hover:font-bold" href="#contactanos">Nueva Ley</a>
+                <a className="text-red-600  hover:bg-red-100 p-5 hover:p-5 hover:px-14 hover:rounded hover:font-bold" href="#nueva-ley">Nueva Ley</a>
               </li>
               <li>
-                <a className="bg-neutral-800 rounded-md font-semibold text-white px-4 p-4 hover:bg-red-300" href="#haz-una-cita">Haz una cita</a>
+                <a className="bg-neutral-800 rounded-md font-semibold text-white px-4 p-4 hover:bg-red-300" href="#cita">Haz una cita</a>
               </li>
             </ul>
           </div>
@@ -70,10 +70,10 @@ export const Header = () => {
             <a className="text-red-600" href="#testimonios">Testimonios</a>
           </li>
           <li>
-            <a className="text-red-600" href="#contactanos">Nueva Ley</a>
+            <a className="text-red-600" href="#nueva-ley">Nueva Ley</a>
           </li>
           <li>
-            <a className="bg-neutral-800 rounded-md font-semibold text-white px-4 p-4" href="#haz-una-cita">Haz una cita</a>
+            <a className="bg-neutral-800 rounded-md font-semibold text-white px-4 p-4" href="#cita">Haz una cita</a>
           </li>
         </ul>
       </nav>
